@@ -1,3 +1,4 @@
+<img src="assets/screenshot.png" width="1000" alt="Archess gameplay">
 # ♟️ Archess — in-terminal chess game
 
 A terminal-based chess game written in Python with self-made modular engine.
