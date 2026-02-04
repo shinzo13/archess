@@ -1,0 +1,9 @@
+[project]
+name = "archess"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic>=2.12.5",
+    "textual>=6.11.0",
+]
