@@ -64,8 +64,8 @@ class ChessEngine:
         return True
 
     def get_board_string(self) -> str:
-        BG1 = "160;100;100"
-        BG2 = "190;150;140"
+        BG1 = "115;96;42"
+        BG2 = "202;165;64"
         WHITE_FG = "255;255;255"
         BLACK_FG = "0;0;0"
         RESET = "\033[0m"
