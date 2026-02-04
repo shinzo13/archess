@@ -1,8 +1,10 @@
 from typing import Optional, List, Tuple
+
 from src.models.board import Board
-from src.models.piece import Piece
-from src.models.enums.team import Team
 from src.models.enums.piece_type import PieceType
+from src.models.enums.team import Team
+from src.models.piece import Piece
+
 
 class PositionManager:
     def __init__(self, board: Board):

@@ -5,6 +5,7 @@ from src.models.enums.piece_type import PieceType
 from src.models.enums.team import Team
 from src.models.piece import Piece
 
+
 class MoveGenerator:
     def __init__(self, pos: 'PositionManager'):
         self.pos = pos
@@ -69,7 +70,8 @@ class MoveGenerator:
                 elif self.pos.is_occupied_by_opponent(curr_r, curr_c, piece.team):
                     moves.append((curr_r, curr_c))
                     break
-                else: break
+                else:
+                    break
                 curr_r, curr_c = curr_r + dr, curr_c + dc
         return moves
 
